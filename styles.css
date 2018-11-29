@@ -1,0 +1,89 @@
+
+* {
+    font-family: Roboto;
+}
+
+.container {
+    width: 990px;
+}
+
+p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+}
+
+a {
+    font-size: 12px;
+}
+
+.progress {
+    min-height: 5px;
+    background-color: #6D3D99;
+    margin-bottom: 25px;
+}
+
+nav {
+    height: 90px;
+}
+
+nav form {
+    vertical-align: middle;
+}
+
+.logo {
+    min-width: 168px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.rectangle {
+    width: 50px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 3px solid #FFC740;
+    position: absolute;
+}
+
+.logo_text {
+    position: absolute;
+    font-size: 24px;
+    font-style: bold;
+    margin: 0;
+    top: 12px;
+    left: 25px;
+    background-color: white;
+}
+
+
+
+
+.line {
+    height: 16px;
+    margin-bottom: 16px;
+}
+
+.purple {
+    background-color: #6D3D99;
+}
+
+.yellow {
+    background-color: #FFC740;
+}
+
+.row {
+    padding: 20px 10px;
+}
+
+.post {
+    margin:  ;
+}
+
+.post img {
+    
+    width: 142px;
+    height: 141px;
+    border: 2px solid #FFC740;
+    padding: 2px;
+}
