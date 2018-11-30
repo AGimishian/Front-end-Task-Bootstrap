@@ -4,7 +4,12 @@
 }
 
 .container {
-    width: 990px;
+    max-width: 990px;
+}
+
+form .ml-auto  {
+    left: auto !important;
+    right: 0px !important;
 }
 
 p {
@@ -24,6 +29,10 @@ a {
     margin-bottom: 25px;
 }
 
+/*---------------------
+        HEADER
+---------------------*/
+
 nav {
     height: 90px;
 }
@@ -32,18 +41,18 @@ nav form {
     vertical-align: middle;
 }
 
-.logo {
-    min-width: 168px;
-    position: relative;
-    vertical-align: middle;
-}
+/*------ LOGO ------*/
+
+
 
 .rectangle {
     width: 50px;
     height: 48px;
     background: #FFFFFF;
     border: 3px solid #FFC740;
-    position: absolute;
+    position: relative;
+    vertical-align: middle !important; 
+    margin-right: 150px;
 }
 
 .logo_text {
@@ -51,13 +60,28 @@ nav form {
     font-size: 24px;
     font-style: bold;
     margin: 0;
-    top: 12px;
-    left: 25px;
+    
+    left: 41px;
     background-color: white;
 }
 
+/*------ SEARCH ------*/
 
 
+/*---------------------
+        MENU
+---------------------*/
+
+
+
+/*---------------------
+        JUMBOTRON
+---------------------*/
+
+
+/*---------------------
+        ARTICLES
+---------------------*/
 
 .line {
     height: 16px;
@@ -86,4 +110,49 @@ nav form {
     height: 141px;
     border: 2px solid #FFC740;
     padding: 2px;
+}
+
+/*---------------------
+        SERVICES
+---------------------*/
+
+
+/*---------------------
+        RESENT NEWS
+---------------------*/
+
+
+/*---------------------
+        CLIENTS
+---------------------*/
+
+.clients_list {
+    padding: 15px;
+}
+
+.clients ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.clients ul li {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/*---------------------
+        FOOTER
+---------------------*/
+footer {
+    background-color: #6D3D99;
+}
+footer p {
+    margin: 0 auto;
+    padding: 49px;
+    text-align: center;
+    color: #FFFFFF;
 }
